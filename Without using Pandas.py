@@ -12,7 +12,7 @@ Source_passw = 'a123!'
 SourceConnection = pyodbc.connect(
     'DRIVER='+Source_driver +';SERVER='+ Source_server  + ';DATABASE='+Source_database+ ';UID=' +Source_user+';PWD=' +Source_passw )
 
-query = 'select * FROM [alireza].[dbo].[salary]'
+query = 'select * FROM [ali].[dbo].[salary]'
 
 cursor = SourceConnection.cursor()
 cursor.execute(query)
