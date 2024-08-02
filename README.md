@@ -1,0 +1,1 @@
+# -Row-by-Row-Insertion-vs.-Bulk-Insertion-with-Pandas
